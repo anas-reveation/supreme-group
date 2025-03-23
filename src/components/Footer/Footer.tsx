@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SupremeLogo from '../../assets/images/Supreme_logo.svg';
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className='flex justify-start px-8 md:px-0'>
         <Link to='/'>
           <img
-            src='src/assets/images/Supreme_logo.svg'
+            src={SupremeLogo}
             className='h-10 md:h-12 xlg:h-12'
             alt='Supreme logo'
             title='logo'

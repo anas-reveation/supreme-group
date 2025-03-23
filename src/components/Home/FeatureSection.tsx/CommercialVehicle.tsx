@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Commercial from '../../../assets/images/Commercial.svg';
 const CommercialVehicle: React.FC = () => {
   return (
     <div className='w-full flex flex-col items-center p-6'>
@@ -16,7 +16,7 @@ const CommercialVehicle: React.FC = () => {
       {/* Main Image Section (Full Width & 70% Height) */}
       <div className='w-full h-[70vh] flex justify-center items-center'>
         <img
-          src='src/assets/images/Commercial.svg'
+          src={Commercial}
           alt='Selected Vehicle Section'
           className='w-[80%] h-full object-contain transition-opacity duration-300'
           loading='lazy'

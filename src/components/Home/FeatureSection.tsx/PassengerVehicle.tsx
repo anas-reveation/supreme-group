@@ -2,35 +2,46 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
+import CompleteBodyFull from '../../../assets/images/completebody.svg';
+import CompleteBodyThumb from '../../../assets/images/cabin.svg';
+import FrontFull from '../../../assets/images/Front.svg';
+import FrontThumb from '../../../assets/images/cabin_1.svg';
+import CabinFull from '../../../assets/images/Cabin_m.svg';
+import CabinThumb from '../../../assets/images/cabin.svg';
+import TrunkFull from '../../../assets/images/Trunk.svg';
+import TrunkThumb from '../../../assets/images/cabin_2.svg';
+import ExteriorFull from '../../../assets/images/Exterior.svg';
+import ExteriorThumb from '../../../assets/images/cabin_3.svg';
+
 const images = [
   {
     id: 1,
-    fullSrc: 'src/assets/images/completebody.svg',
-    thumbSrc: 'src/assets/images/cabin.svg',
+    fullSrc: CompleteBodyFull,
+    thumbSrc: CompleteBodyThumb,
     name: 'Complete Body',
   },
   {
     id: 2,
-    fullSrc: 'src/assets/images/Front.svg',
-    thumbSrc: 'src/assets/images/cabin_1.svg',
+    fullSrc: FrontFull,
+    thumbSrc: FrontThumb,
     name: 'Front',
   },
   {
     id: 3,
-    fullSrc: 'src/assets/images/Cabin_m.svg',
-    thumbSrc: 'src/assets/images/cabin.svg',
+    fullSrc: CabinFull,
+    thumbSrc: CabinThumb,
     name: 'Cabin',
   },
   {
     id: 4,
-    fullSrc: 'src/assets/images/Trunk.svg',
-    thumbSrc: 'src/assets/images/cabin_2.svg',
+    fullSrc: TrunkFull,
+    thumbSrc: TrunkThumb,
     name: 'Trunk',
   },
   {
     id: 5,
-    fullSrc: 'src/assets/images/Exterior.svg',
-    thumbSrc: 'src/assets/images/cabin_3.svg',
+    fullSrc: ExteriorFull,
+    thumbSrc: ExteriorThumb,
     name: 'Exterior',
   },
 ];
