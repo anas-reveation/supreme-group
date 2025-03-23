@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HeroSection = () => {
   return (
     <section className='lg:min-h-screen min-h-[450px] flex items-center justify-center bg-[#00000099]'>
