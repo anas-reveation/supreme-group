@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaLinkedin, FaTimes, FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { BsTranslate } from 'react-icons/bs';
+import SupremeLogo from '../../assets/images/Supreme_logo.svg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,7 @@ const Header = () => {
         <div className='flex justify-between items-center h-16'>
           <div className='flex-shrink-0'>
             <Link to='/'>
-              <img
-                src='src/assets/images/Supreme_logo.svg'
-                alt='Supreme Logo'
-                className='h-8'
-              />
+              <img src={SupremeLogo} alt='Supreme Logo' className='h-8' />
             </Link>
           </div>
           `{' '}
