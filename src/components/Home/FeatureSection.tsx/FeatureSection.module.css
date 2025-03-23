@@ -1,0 +1,22 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+  position: absolute;
+  width: 100%;
+  background: black;
+  padding: 1rem 0;
+}
+
+.newContent {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.newContent.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
