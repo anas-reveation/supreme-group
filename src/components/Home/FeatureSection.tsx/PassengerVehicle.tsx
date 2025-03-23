@@ -115,7 +115,7 @@ const PassengerVehicle: React.FC = () => {
               <img
                 src={image.fullSrc}
                 alt={image.name}
-                className='w-full h-full object-contain'
+                className='w-full h-[80%] object-contain'
                 loading='lazy'
               />
               <p className='text-sm mt-2 text-white font-semibold'>
