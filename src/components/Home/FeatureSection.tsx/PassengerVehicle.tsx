@@ -3,15 +3,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
 import CompleteBodyFull from '../../../assets/images/completebody.svg';
-import CompleteBodyThumb from '../../../assets/images/cabin.svg';
+import CompleteBodyThumb from '../../../assets/images/Cabin.svg';
 import FrontFull from '../../../assets/images/Front.svg';
-import FrontThumb from '../../../assets/images/cabin_1.svg';
+import FrontThumb from '../../../assets/images/Cabin_1.svg';
 import CabinFull from '../../../assets/images/Cabin_m.svg';
-import CabinThumb from '../../../assets/images/cabin.svg';
+import CabinThumb from '../../../assets/images/Cabin.svg';
 import TrunkFull from '../../../assets/images/Trunk.svg';
-import TrunkThumb from '../../../assets/images/cabin_2.svg';
+import TrunkThumb from '../../../assets/images/Cabin_2.svg';
 import ExteriorFull from '../../../assets/images/Exterior.svg';
-import ExteriorThumb from '../../../assets/images/cabin_3.svg';
+import ExteriorThumb from '../../../assets/images/Cabin_3.svg';
 
 const images = [
   {
